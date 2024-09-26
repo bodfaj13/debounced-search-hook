@@ -1,25 +1,30 @@
 {
-  "name": "debounced-search-hook",
-  "version": "1.0.1",
-  "description": "",
-  "main": "lib/index.js",
-  "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
-  },
-  "keywords": [],
-  "author": "bellohargbola13@gmail.com",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^22.7.2",
-    "@types/react": "^18.3.9",
-    "typescript": "^5.6.2"
-  },
-  "types": "lib/index.d.ts",
-  "files": [
-    "lib/**/*"
-  ],
-  "peerDependencies": {
-    "react": ">=16.8.0"
-  }
+	"name": "debounced-search-hook",
+	"version": "1.0.2",
+	"description": "",
+	"main": "lib/index.js",
+	"scripts": {
+		"build": "tsc",
+		"prepare": "npm run build"
+	},
+	"keywords": [],
+	"author": "Ajibola Bello bellohargbola13@gmail.com",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^22.7.2",
+		"@types/react": "^18.3.9",
+		"typescript": "^5.6.2"
+	},
+	"types": "lib/index.d.ts",
+	"files": [
+		"lib/**/*"
+	],
+	"peerDependencies": {
+		"react": ">=16.8.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bodfaj13/debounced-search-hook"
+	},
+	"homepage": "https://github.com/bodfaj13/debounced-search-hook"
 }
