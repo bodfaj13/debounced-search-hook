@@ -12,7 +12,7 @@ A lightweight, customizable React hook for implementing debounced search functio
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Install the package using npm:
 
 ```bash
 npm install debounced-search-hook
