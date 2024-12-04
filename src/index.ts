@@ -21,7 +21,6 @@ export const useDebouncedSearch = (
   const debouncedSearch = useCallback(
     (value: string) => {
       setIsTyping(true);
-      console.log(`Searching ${value}`);
 
       if (timerRef.current) {
         clearTimeout(timerRef.current);
